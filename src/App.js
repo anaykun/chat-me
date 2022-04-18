@@ -39,7 +39,7 @@ export default function App() {
 
   //connect to socket io
   useEffect(() => {
-    socket = io(process.env.SERVER_URL || "http://localhost:4001");
+    socket = io(process.env.REACT_APP_SERVER_URL || "http://localhost:4001");
 
     setMessage();
     setRoomId();
