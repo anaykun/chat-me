@@ -20,8 +20,8 @@ export default function Chats({
       <div className="chat-header bg-light">
         <h3 className="text-danger text-center">Chatme-Live {roomId}</h3>
       </div>
-      <div className="" style={{ height: "89vh" }}>
-        <ScrollToBottom className="chat-body d-flex">
+      <div className="chat-body" style={{ height: "85vh" }}>
+        <ScrollToBottom className="chat-body d-flex h-100">
           {listChat.map((itemMessage, index) => {
             return (
               <div
